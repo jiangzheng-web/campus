@@ -1,0 +1,59 @@
+.survey-img{
+	height:150px;
+	margin-bottom: 15px;
+	img{
+		width:100%;
+		height:100%;
+	}
+}
+.survey-subject{
+	padding:0 20px;
+	li{
+		margin-top: 15px;
+		input{
+			margin-right: 10px;
+		}
+		input{
+			border:none;
+			-webkit-appearance: none;
+			list-style: none;
+			width:15px;
+			height:15px;
+			background: url('../../../assets/icon/inputNo.png') no-repeat;
+			background-size:15px;
+		}
+		input[type="radio"]:checked{
+			background: url('../../../assets/icon/radioChecked.png') no-repeat;
+			background-size:15px;
+			color:#666;
+		}
+		input[type="checkbox"]:checked{
+			background: url('../../../assets/icon/checkboxChecked.png') no-repeat;
+			background-size:15px;
+
+		}
+		input:checked{
+ 			
+		}
+	}
+}
+.subject-checked{
+	color:#666;
+}
+.survey-submit{
+	margin-top: 43px;
+	padding:0 25px;
+	button{
+		width:100%;
+		height:50px;
+		line-height: 50px;
+		background: #f66666;
+		color:#fff;
+		font-size:16px;
+		font-weight: bold;
+		  -moz-border-radius:5px;
+                -webkit-border-radius:5px;
+                border-radius:5px;
+
+	}
+}

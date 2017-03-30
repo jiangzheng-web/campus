@@ -1,0 +1,99 @@
+ .jobList.job-list-main{
+       padding-bottom:55px; 
+ }
+ .job-list-main{
+        padding:0 15px;
+        padding-bottom:20px; 
+    }
+    .job-list{
+        margin-top:10px;
+        background:#fff;
+        -moz-border-radius: 3px;
+        -webkit-border-radius:3px;
+        border-radius:3px;
+        ul{
+            padding-bottom:5px; 
+        }
+        li{
+            margin-left:15px;
+        }
+    }
+    .job-title{
+        display:inline-block;
+        font-size:20px;
+        color:#000;
+        padding-top:15px;
+        margin-bottom:14px;
+    }
+    .job-money{
+        color:#666666;
+        font-size:18px;
+        float:right;
+        margin-right:15px;
+        padding-top:15px;
+    }
+    .add-people{
+        margin-bottom:10px;
+        .job-add{
+            margin-right:30px;
+           img{
+                width:10px;
+                height:14px;
+            }
+        }
+        .job-people{
+            img{
+                width:14px;
+                height:14px;
+            }
+        }
+        img{
+             margin-top:-4px;
+        }
+    }
+    .detailed-add{
+        color:#666;
+        margin-bottom:10px;
+    }
+    .job-time{
+        margin-bottom:14px;
+        .start{
+           margin-right:14px;
+        }
+        .end{
+           margin-left:14px;
+        }
+    }
+    .job-ope{
+        height:40px;
+        line-height:40px;
+        font-size:14px;
+        text-align:center;
+        border-top:1px solid #eaeaea;
+        color:#3dbd81;
+    }
+    .job-ope.isDisable{
+        color:#eaeaea;
+    }
+    .job-ope{
+        ul{
+            display: -moz-box; 
+            display: -webkit-box;
+            display: -o-box;
+            display: box; 
+            li{
+                box-flex: 1;
+                -moz-box-flex: 1;
+                -webkit-box-flex: 1;
+                &:first-child{
+                    border-right:1px solid #eaeaea;
+                }
+            }
+        }
+    }
+    .list-loading{
+        img{
+            width:50px;
+            height:50px;
+        }
+    }

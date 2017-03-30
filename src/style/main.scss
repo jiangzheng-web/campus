@@ -1,0 +1,139 @@
+.main{
+    background-color: #eaeaea;
+    padding:0 30px;
+     min-height:100%;
+}
+.font-title{
+    color:#adadad;
+}
+.main-title{
+    font-size:20px;
+    color:#000;
+    text-align: center;
+}
+.alert-msg{
+    color:#f66666;
+}
+.clear{
+    &:after{
+        content:' ';
+        display: block;
+        clear:both;
+    }
+}
+.top-nav{
+    background: #fff;
+    height:44px;
+    line-height: 44px;
+    text-align: center;
+    span{
+        float:left;
+        padding-left:11px;
+        height:44px;
+        width:44px;
+        position:absolute;
+        left:0;
+    }
+    i{
+        float:left;
+        width:10px;
+        height:17px;
+        background: url('assets/icon/leftArrow.png') no-repeat;
+        background-size:10px;
+        position:relative;
+         top:50%;
+        -ms-transform:translateY(-50%); 	
+        -moz-transform:translateY(-50%); 	
+        -webkit-transform:translateY(-50%); 
+        -o-transform:translateY(-50%);
+        transform:translateY(-50%);
+    }
+}
+.titleList{
+  display:-moz-box;
+  display:-webkit-box;
+  display:box;
+  border-top:1px solid #f7f7f7;
+  border-bottom:1px solid #f7f7f7;
+  background: #f7f7f7;
+  li{
+    height:34px;
+    text-align: center;
+    line-height:34px;
+    &:first-child{
+      box-flex: 2;
+      -moz-box-flex: 2;
+      -webkit-box-flex: 2;
+      color:#fc9b9b;
+    }
+    &:nth-child(2){
+      box-flex: 5;
+      -moz-box-flex: 5;
+      -webkit-box-flex: 5;
+    }
+    &:nth-child(3){
+      box-flex: 2;
+      -moz-box-flex: 2;
+      -webkit-box-flex: 2;
+      color:#0084ff;
+    }
+  }
+  &:after{
+    content: ' ';
+    display: block;
+    clear: both;
+  }
+}
+.mint-popup.mint-popup-bottom{
+    width:100%;
+}
+.btnFa{
+  padding:0 25px;
+  margin-top: 15px;
+  button{
+    width: 100%;
+    height:46px;
+    line-height: 46px;
+    font-size: 18px;
+    color:#fff;
+    background: #f66666;
+    border-radius: 5px;
+  }
+}
+.textFa{
+  position: relative;
+  .ident{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+.img-upload{
+         height:180px;
+         width:100%;
+        opacity: 0;
+        position: relative;
+        z-index:500;
+    }
+    // .mint-indicator{
+    //   transform-style:preserve-3d;
+    //   -webkit-backface-visibility: hidden;
+    //   -moz-backface-visibility: hidden;
+    //   -ms-backface-visibility: hidden;
+    //   backface-visibility: hidden;
+
+    //   -webkit-perspective: 1000;
+    //   -moz-perspective: 1000;
+    //   -ms-perspective: 1000;
+    //   perspective: 1000;  
+    //   .mint-indicator-wrapper{
+    //     // z-index: 1000;
+    //     -webkit-transform:translate3d(-50%,-50%,200px);
+    //     transform:translate3d(-50%,-50%,200px);
+    //   }
+    //   .mint-indicator-mask{
+    //     // z-index: 999;
+    //     -webkit-transform:translate3d(0,0,210px);
+    //     transform:translate3d(0,0,210px);
+    //   }
+    // }
